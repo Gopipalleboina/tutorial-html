@@ -1,0 +1,14 @@
+h1{
+    color:greenyellow;
+}
+p{
+    color:red;
+}
+body{
+    background-color: aqua;
+}
+.my-container{
+    height:70vh;
+    background-color: blue;
+    text-align: center;
+}
