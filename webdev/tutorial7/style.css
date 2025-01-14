@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour:BLED@70&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC+Guides&family=Sixtyfour:BLED@70&display=swap');
+body{
+    text-align: center;
+    font-family: "Sixtyfour", serif;
+}
+.para{
+    color: aqua !important;
+    font-family: "Playwrite AU VIC Guides", serif;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+   font-style: italic;
+}

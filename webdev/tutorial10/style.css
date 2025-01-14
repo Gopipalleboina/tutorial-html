@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Fira+Code:wght@300..700&family=Playwrite+AU+VIC+Guides&family=Sixtyfour:BLED@70&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AU+VIC+Guides&family=Sixtyfour:BLED@70&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   background-color: black;
+}
+.navbar_left{
+    padding: 20px;
+    
+}
+.box{
+    height: 75px;
+    width: 75px;
+    
+}
+.navbar_right{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+  align-items: center; /*instead of this can we use padding-top: 40px;*/
+ 
+  
+}
+.a_element{
+    padding: 10px;
+   
+    margin: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+    justify-content: space-between;
+    height: 85vh;
+   
+}
+.home_left{
+    font-size: 24px;
+    width: 50vw;
+    text-align: right;
+    padding-left: 240px;
+}
+.container{
+    height: 310px;
+    width: 300px;
+  margin-right: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+   }
+.home_right{
+    width: 30vw;
+    padding-left: 100px;
+   }
+.home-h1{
+    font-family: "Encode Sans", serif;
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: italic;
+   }
+.home-p{
+    font-family: "Encode Sans", serif;
+    font-size: 25px;
+}
+.services{
+    padding: 50px;
+    text-align: center;
+}
+.services-heading{
+    font-family: "Ubuntu", serif;
+    color: greenyellow;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-style: italic;
+}
+.services-sub-container{
+    display: flex;
+    flex-direction: row;
+   
+}
+.services-card{
+    border: 2px goldenrod solid;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+}
+.service-card-h1{
+    font-family: "Encode Sans", serif;
+     font-weight: 400;
+     font-size: 25px;
+     font-weight: lighter;
+    
+     
+}
+.service-card-p{
+    font-family: "Encode Sans", serif;
+    font-size: 25px;
+}
+.contact{
+    text-align: center;
+}
+.contact-h1{
+    color: greenyellow;
+    font-family: "Ubuntu", serif;
+    font-style: italic;
+}
+.contact-info{
+    font-family: "Encode Sans", serif;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.social-icon-img{
+    height: 30px;
+    padding: 20px;
+
+}
+.testmoniallogo{
+    height: 50px;
+   
+
+}
+.facebooklogo{
+    height: 50px;
+    
+}
+.chatgptlogo{
+    height: 50px;
+    
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name"required>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+        <br>
+        <br>
+        <label for="gender">Gender: </label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br>
+        <br>
+        <label for="country">Country:</label>
+        <select id="country" name="country" >
+            <option value="india">India</option >
+            <option value="america">America</option>
+        </select>
+        <br>
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        <br>
+        <br>
+        <button>submit</button>
+        <p>Interests:</p>
+      
+        <input type="checkbox" id="coding" name="coding" value="coding">
+        <label for="coding">Coding</label>
+        
+        <input type="checkbox" id="music" name="interests[]" value="music">
+        <label for="music">Music</label>
+
+    </form>
+</body>
+</html>

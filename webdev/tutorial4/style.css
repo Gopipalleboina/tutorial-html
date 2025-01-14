@@ -1,0 +1,20 @@
+.list{
+    list-style-type: square;
+}
+table{
+    border: 1px solid black;
+    border-collapse:collapse;
+    font-size: large;
+    width: 20%;
+    text-align: right;
+    
+}
+th,td{
+    border: 1px solid black;
+    text-align: center;
+   
+}
+th{
+    background-color: aqua;
+   text-align: center;
+}
